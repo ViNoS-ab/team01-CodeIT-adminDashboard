@@ -1,0 +1,88 @@
+/*css og the login page */
+.back {
+display: grid;
+    height: 99%;
+    width: 99%;
+    position: fixed;
+    z-index: -1;
+    
+}
+.shapes {
+    max-width: 99%;
+    max-height: 99vh;
+    margin: auto;
+
+}
+.glass-square {
+    display: grid;
+    height: 99%;
+    width: 99%;
+    position: fixed; 
+  }
+
+  .glass-content {
+    margin:auto;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 3%;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-rows: 150px 180px auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  .logo{
+    margin: auto;
+    grid-row: 1;
+  }
+
+  .login-button {
+margin: auto;
+    grid-row: 3;
+   width: 99%;
+    height: 40px;
+    border: none;
+    background-color:#4285F4;
+    color: white;
+    border-radius: 25px;  
+    font-size: large; 
+    cursor: pointer;      
+  }
+  .login-button:hover { 
+    opacity: 0.85; 
+}
+input[type=text], input[type=password] { 
+    width: 99%;
+    margin-top: 10px;
+   
+    padding: 12px 10px; 
+    display: inline-block; 
+    border: 1.8px solid #4285F4;
+   
+    box-sizing: border-box; 
+    border-radius: 25px;
+    
+    
+}
+form{
+    margin-bottom: 0;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: auto auto;
+    color: #0b0e6bd8;
+}
+
+.password-container, .email-container{
+    height: 100px;
+}
+
+ .copy{
+  font-size:xx-small;
+  margin: auto;
+ }  
+nav {
+  display: list-item;
+}
